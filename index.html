@@ -1,21 +1,90 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
-  </head>
-  <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stratus Forecaster</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/stylle.css"
+  
+</head>
+<body>
+
+ <!-- Name of Web app -->
+  <header>
+    <h1>Stratus</h1>
+ <!-- One-liner -->
+    <p>The Five Day Forecast</p>
+  </header>
+
+  <section>
+ <!-- Search City and History -->
+    <label for="city">Search by City:</label>
+ <!-- City input -->
+    <input type="text" id="City" name="name" required minlength="4" maxlength="8" size="12" />
+
+    <div>
+ <!-- City Search History will cascade down in a column. -->
+    </div>
+
+  </section>
+
+  <section class="hero" >
+ <!-- This section will include the five-day forecast with "today" being the "head section" -->
+   
+    <div class="today">
+        <!-- Todays forecast information:
+      1.city name, 
+	    2. date, 
+	    3. icon of weather conditions,
+	    4. the temperature, 
+	    5. the humidity,
+      6. the wind speed -->
+    </div>
+
+    <div class="day01">
+ <!-- 1. date, 
+	    2. icon of weather conditions,
+	    3. the temperature, 
+	    4. the humidity,
+      5. the wind speed -->
+    </div>
+
+        <div class="day02">
+ <!-- 1. date, 
+	    2. icon of weather conditions,
+	    3. the temperature, 
+	    4. the humidity,
+      5. the wind speed -->
+    </div>
+
+        <div class="day03">
+ <!-- 1. date, 
+	    2. icon of weather conditions,
+	    3. the temperature, 
+	    4. the humidity,
+      5. the wind speed -->
+    </div>
+
+        <div class="day04">
+ <!-- 1. date, 
+	    2. icon of weather conditions,
+	    3. the temperature, 
+	    4. the humidity,
+      5. the wind speed -->
+    </div>
+        <div class="day05">
+ <!-- 1. date, 
+	    2. icon of weather conditions,
+	    3. the temperature, 
+	    4. the humidity,
+      5. the wind speed -->
     </div>
   </section>
-  </body>
+  
+  <footer> Created by Clifton Reed &copy2024. See more at 
+    <!-- <link <-- GitHub Repo link via GitHub Icon and Profile Link -->
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
 </html>
