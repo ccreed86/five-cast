@@ -1,3 +1,33 @@
 :root {
-    --
+    --textoutline: rgb(159, 159, 201);
+}
+
+body {
+    background-image: url("../image/IMG_20190311_173749_1.jpg");
+}
+
+.stratus {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../image/83e09541-4967-4e08-9cdc-8e4614f18d9c.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100px;
+}
+
+h1 {
+    font-size: 300%;
+    color: rgba(255, 82, 8, 0.89);
+    text-shadow: -1px -1px 0 var(--textoutline), 1px -1px 0 var(--textoutline), -1px 1px 0 var(--textoutline), 1px 1px 0 var(--textoutline);
+}
+
+h1:outline-text {
+    outline-color: var(--textoutline);
+    outline-width: 15px;
+    outline-style: double;
 }
